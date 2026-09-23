@@ -1,0 +1,69 @@
+generated: '2026-09-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 3
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - collections
+  - identity
+  - website
+hosts:
+- host: api.soundful.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: soundful.com
+  role: api
+  relation: own
+- host: my.soundful.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - SignUp
+  - Login
+  serves: []
+  registrable_domain: soundful.com
+  role: identity
+  relation: own
+- host: soundful.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Newsroom
+  - Website
+  - Pricing
+  - TermsOfService
+  - PrivacyPolicy
+  - Blog
+  - Support
+  serves:
+  - docs
+  registrable_domain: soundful.com
+  role: website
+  relation: own
+- host: www.postman.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Postman
+  serves:
+  - api-collections
+  vendor: postman
+  registrable_domain: postman.com
+  role: collections
+  relation: platform

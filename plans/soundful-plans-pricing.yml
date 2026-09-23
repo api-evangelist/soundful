@@ -1,0 +1,36 @@
+generated: 2026-09-23
+method: searched
+source: https://soundful.com/pricing/
+name: Soundful API Plans
+audience: developer-api
+pricing_basis: per-user-month
+published: true
+plan_count: 3
+plans:
+  - name: Free
+    price_text: "Free forever"
+    billing_period: null
+    features:
+      - Unlimited Track Generations
+      - Access to 25+ free styles
+      - 1 MP3 download/month
+    limits: []
+  - name: Plus
+    price_text: "Per user/month, billed monthly"
+    billing_period: monthly
+    features:
+      - Unlimited Track Generations
+      - Unlock 150+ styles
+      - 100 MP3 & WAV downloads/month
+      - Access to in App Purchases
+      - Access to Premium Content
+      - Music Creator License
+    limits: []
+  - name: Pro
+    price_text: "Per user/month, billed monthly"
+    billing_period: monthly
+    features:
+      - Unlimited Track Generations
+      - Unlock 150+ styles
+      - 400 MP3 & WAV downloads/month
+    limits: []

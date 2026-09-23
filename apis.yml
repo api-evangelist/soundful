@@ -1,23 +1,89 @@
 aid: soundful
+
 name: Soundful
-description: 'Soundful is a company surfaced via the API Evangelist harvest backlog (source: music) and
-  added to the network as a stub for full-pipeline profiling.'
+
+description: Soundful provides AI-generated music for brands, creators, and enterprises. Their platform offers scalable, royalty‑free tracks created
+  with ethically trained AI, enabling users to quickly generate custom soundtracks for marketing, video, podcasts, and more. Soundful’s service
+  includes a free tier for hobbyists, paid plans for teams, and enterprise licensing, with features like unlimited track generation, style libraries,
+  and direct download options. The company emphasizes copyright‑safe music, brand‑centric sonic identity, and collaborative tools for producers.
+
 url: https://raw.githubusercontent.com/api-evangelist/soundful/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:music
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-23'
+
 modified: '2026-09-23'
+
 tags:
 - Company
-apis: []
+- AI
+- Music
+- SaaS
+- Branding
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/soundful-plans-pricing.yml
+- type: WellKnown
+  url: well-known/soundful-well-known.yml
+- type: Hosts
+  url: hosts/soundful-hosts.yml
+- type: Vendors
+  url: vendors/soundful-vendors.yml
+- type: Newsroom
+  url: https://soundful.com/category/news/
+- type: DomainSecurity
+  url: security/soundful-domain-security.yml
 - type: Website
   url: https://soundful.com/
+- type: Pricing
+  url: https://soundful.com/pricing/
+- type: TermsOfService
+  url: https://soundful.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://soundful.com/privacy-policy/
+- type: Blog
+  url: https://soundful.com/blog/
+- type: Support
+  url: https://soundful.com/help-center
+- type: SignUp
+  url: https://my.soundful.com/signup/
+- type: Login
+  url: https://my.soundful.com/signin/
+- type: Postman
+  url: https://www.postman.com/soundful/workspace
+
+apis:
+- name: Soundful API
+  description: Soundful provides AI-generated music and audio tracks via its platform.
+  humanURL: https://soundful.com/pricing/
+  aid: soundful:soundful-api
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: OpenAPI spec requires authentication and is not publicly accessible.
+  evidence:
+  - url: https://api.soundful.com/openapi.json
+    status: 403
+  checked: 2026-09-23
+x-enrichment:
+  date: '2026-09-23'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
