@@ -1,0 +1,21 @@
+{
+  "repo": "soundful",
+  "feeds": [
+    {
+      "source": "https://soundful.com/privacy-policy/",
+      "feed_url": "https://soundful.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://soundful.com/feed/",
+      "feed_url": "https://soundful.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-10-03T12:30:02Z"
+}
