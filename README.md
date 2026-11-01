@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Soundful is a company surfaced via the API Evangelist harvest backlog (source: music) and added to the network as a stub for full-pipeline profiling.
-- https://soundful.com/
+Soundful provides AI-generated music for brands, creators, and enterprises. Their platform offers scalable, royalty‑free tracks created with ethically trained AI, enabling users to quickly generate custom soundtracks for marketing, video, podcasts, and more. Soundful’s service includes a free tier for hobbyists, paid plans for teams, and enterprise licensing, with features like unlimited track generation, style libraries, and direct download options. The company emphasizes copyright‑safe music, brand‑centric sonic identity, and collaborative tools for producers.
+
+**Areas:** Company · Artificial Intelligence · Music · Software-as-a-Service · Branding
+
+## Soundful on APIs.io
+
+Everything profiled for Soundful is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/soundful/](https://apis.io/providers/soundful/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Soundful API](https://apis.io/apis/soundful/soundful-api/) — Soundful provides AI-generated music and audio tracks via its platform.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Soundful Domain Security](https://apis.io/security/soundful/soundful-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Soundful Plans Pricing](https://apis.io/plans/soundful/soundful-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://soundful.com/)
+- [Pricing](https://soundful.com/pricing/)
+- [Sign up](https://my.soundful.com/signup/)
+- [Support](https://soundful.com/help-center)
+- [Blog](https://soundful.com/blog/)
+- [Terms of service](https://soundful.com/terms-and-conditions/)
+- [Privacy policy](https://soundful.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 23.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 76.3 |
+
+**Agent readiness 14.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/soundful/](https://apis.io/providers/soundful/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Soundful: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/soundful/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
